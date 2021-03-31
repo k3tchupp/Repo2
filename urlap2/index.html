@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="Urlap2style.css">
+</head>
+<body>
+
+        <form>
+            <fieldset>
+                <legend>Szállítási cím módosítása</legend>
+                
+            <table>
+                <tr>
+                    <td><label for="nev" class="elso">Név<sup>*</sup></label><br>
+                        <input type="text" class="nev"></td>
+                    <td><label for="tel" class="elso">Telefonszám <sup>*</sup></label><br>
+                    <select id="telegy" name="tel">
+                            <option>30</option>
+                            <option>50</option>
+                            <option>70</option>
+                            <option>20</option>
+                            </select>
+                    <input type="tel" id="telketto">
+                    </td>    
+                </tr>
+                <tr>
+                    <td><label for="szam">Irányítószám<sup>*</sup></label><br>
+                    <input type="number" id="szam"></td>
+                    <td><label for="varos">Város<sup>*</sup></label><br>
+                    <select id="varos">
+                            <option>Debrecen</option>
+                            <option>Budapest</option>
+                            <option>Kocsord</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="orszag">Ország<sup>*</sup></label><br>
+                        <select id="orszag">
+                                <option>Magyarország</option>
+                                <option>Németország</option>
+                                <option>Oroszország</option>
+                        </select></td>
+                        <td><label for="email">Email<sup>*</sup></label><br>
+                            <input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td class="oszlopegy"><input type="submit" id="save" value="Mentés" class="save"></td>
+                </tr>
+
+            </table>
+            
+            </fieldset>
+        </form>
+</body>
+</html>

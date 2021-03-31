@@ -1,0 +1,10 @@
+fieldset{
+    border:none;
+
+}
+hr{
+    border-top: 2px black dotted;
+}
+sup{
+    color: red;
+}
